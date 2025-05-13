@@ -1,7 +1,7 @@
 import { SignIn } from '@clerk/nextjs'
 import React from 'react'
 
-function page() {
+function signInPage() {
   return (
     <main>
         <SignIn/>
@@ -9,4 +9,4 @@ function page() {
   )
 }
 
-export default page
+export default signInPage
