@@ -10,8 +10,7 @@ import {
   AppleIcon,
   ShieldIcon,
 } from "lucide-react";
-import { USER_PROGRAMS } from "@/constants";
-
+import { USER_PROGRAMS } from "@/constants/user_programs";
 const UserPrograms = () => {
   return (
     <div className="w-full pb-24 pt-16 relative">
